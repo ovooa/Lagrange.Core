@@ -43,6 +43,8 @@ public class KeyboardData
 {
     [JsonPropertyName("rows")] [ProtoMember(1)]
     public List<Row> Rows { get; set; } = new();
+    [JsonPropertyName("botid")] [ProtoMember(3)]
+    public int Botid { get; set; }
 }
 
 [ProtoContract]
